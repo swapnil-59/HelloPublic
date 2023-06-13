@@ -1,0 +1,15 @@
+<button type="button" name="button" (click)="getInfoFromServiceClass1()" class="btn btn-info" routerLink="/empl">Employee 1</button>
+<ul class="list-group">
+    <li *ngFor="let info of infoReceived1" class="list-group-item">{{info}}</li>
+</ul>
+<br><br>
+<button type="button" name="button" (click)="getInfoFromServiceClass2()"class="btn btn-info" routerLink="/empl">Employee 2</button>
+<ul class="list-group">
+    <li *ngFor="let info of infoReceived2" class="list-group-item">{{info}}</li>
+</ul>
+<br><br>
+<button type="button" name="button" (click)="getInfoFromServiceClass3()"class="btn btn-info" routerLink="/empl">Employee 3</button>
+<ul class="list-group">
+    <li *ngFor="let info of infoReceived3" class="list-group-item">{{info}}</li>
+</ul>
+<br><br>
